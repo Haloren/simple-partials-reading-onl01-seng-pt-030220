@@ -1,5 +1,14 @@
+<% if false %>
 <%= @post.author.name %>
 <%= @post.author.hometown %>
+<% end %>
+
+<% if false %>
+<%= @author.name %>
+<%= @author.hometown%>
+<% end %>
+
+<%= render 'authors/author' %>
 
 <h1><%= @post.title %></h1>
 <p><%= @post.description %></p>
